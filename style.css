@@ -8,6 +8,7 @@ body {
   place-items: center;
   min-height: 100vh;
   width: 100%;
+  grid-template-rows: auto 1fr auto;
 }
 
 img {
@@ -38,6 +39,8 @@ img {
   grid-auto-flow: column;
   place-items: center;
   margin: 10px 0;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .info {
@@ -47,7 +50,6 @@ img {
   text-align: center;
   width: 60%;
   padding: 70px;
-  background-color: white;
 }
 .info img {
   height: 200px;
@@ -62,4 +64,6 @@ img {
 
 #page_footer {
   background-color: lightslategray;
+  height: 100px;
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
