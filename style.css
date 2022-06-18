@@ -29,6 +29,9 @@ img {
   justify-self: end;
 }
 
+#page_content {
+  background-color: lightgray;
+}
 #page_content h1 {
   text-align: center;
   color: red;
@@ -50,6 +53,7 @@ img {
   text-align: center;
   width: 60%;
   padding: 70px;
+  background-color: white;
 }
 .info img {
   height: 200px;
